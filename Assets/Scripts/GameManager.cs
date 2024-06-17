@@ -61,13 +61,15 @@ public class GameManager : MonoBehaviour
 
 	public void AddPoints(bool isPlayerOne, int points)
 	{
-		if(isPlayerOne)
+		if(isPlayerOne && _paddleOneScore <= _victoryScore)
 		{
 			_paddleOneScore += points;
-		} else
-		{
+            PlayAudioClip(_audioKASSINO);
+        } else if (!isPlayerOne && _paddleTwoScore <= _victoryScore)
+        {
 			_paddleTwoScore += points ;
-		}
+            PlayAudioClip(_audioKASSINO);
+        }
 
 		UIManager.Instance.UpdateScorePoints();
 		OnShakeCamera(5f,.2f);

@@ -53,13 +53,13 @@ public class BallController : MonoBehaviour
         if (collision.gameObject.CompareTag("Limits"))
         {
             GameManager.Instance.AddPoints(true, _pointValue);
-			GameManager.Instance.PlayAudioClip(_ballScore);
+			//GameManager.Instance.PlayAudioClip(_ballScore);
             StartBallBehavior();
         }
         if (collision.gameObject.CompareTag("Limits2"))
         {
             GameManager.Instance.AddPoints(false, _pointValue);
-			GameManager.Instance.PlayAudioClip(_ballScore);
+			//GameManager.Instance.PlayAudioClip(_ballScore);
             StartBallBehavior();
         }
     } 
