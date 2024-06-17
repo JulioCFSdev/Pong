@@ -562,6 +562,7 @@ GameObject:
   - component: {fileID: 251478122}
   - component: {fileID: 251478121}
   - component: {fileID: 251478120}
+  - component: {fileID: 251478123}
   m_Layer: 5
   m_Name: Config
   m_TagString: Untagged
@@ -671,6 +672,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251478118}
   m_CullTransparentMesh: 1
+--- !u!95 &251478123
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251478118}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b910695effb8214d95a16543dd3d297, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &257622014
 GameObject:
   m_ObjectHideFlags: 0
@@ -7751,6 +7773,7 @@ GameObject:
   - component: {fileID: 2051142364}
   - component: {fileID: 2051142363}
   - component: {fileID: 2051142362}
+  - component: {fileID: 2051142365}
   m_Layer: 5
   m_Name: Jogar
   m_TagString: Untagged
@@ -7896,6 +7919,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051142360}
   m_CullTransparentMesh: 1
+--- !u!95 &2051142365
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051142360}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e92f9c630d699d7498e85d329377fecd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2112125147
 GameObject:
   m_ObjectHideFlags: 0
